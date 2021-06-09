@@ -1,0 +1,49 @@
+site_name: Learn Math
+
+theme:
+  #Language
+  language: en
+
+  # Use material styles
+  name: material
+
+  # Use custom logo and favicon
+  # logo: images/raspberry.svg
+  # favicon: images/raspberry.png
+
+  # Hide header
+  features:
+    - header.autohide
+
+  # Color palette
+  palette:
+    primary: black
+    secondary: blue
+
+# Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - def_list
+  - footnotes
+  - pymdownx.tabbed
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Footer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/besSejrani
+
+# Javascript
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
