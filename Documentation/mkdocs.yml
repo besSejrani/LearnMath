@@ -20,6 +20,14 @@ theme:
     primary: black
     secondary: blue
 
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        fr: Français
+
 # Extensions
 markdown_extensions:
   - attr_list
